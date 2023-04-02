@@ -28,6 +28,10 @@ body {
 	align-items: center;
 }
 
+.article-title {
+	margin-block-end: 1.5rem;
+}
+
 .header-content {
 	background-color: inherit;
 	backdrop-filter: blur(8px);
@@ -42,6 +46,20 @@ body {
 .header-title {
 	margin-block-end: 1.5rem;
 }
+
+.headline {
+	text-transform: uppercase;
+	margin-block-end: 1rem;
+	font-weight: bold;
+}
+
+.orange-text {
+	color: rgb(196, 141, 3);
+}
+
+.red-text {
+	color: rgb(255, 0, 0);
+}
 .header-info {
 	line-height: 1.5;
 	margin-block-end: 1rem;
@@ -52,11 +70,6 @@ body {
 	text-align: center;
 	margin-block-end: 0.6rem;
 }
-.red-text {
-	color: #b90404;
-	font-weight: bold;
-}
-
 .quote {
 	background: #dcdbdb;
 	padding: 1em;
@@ -72,7 +85,4 @@ body {
 	font-style: italic;
 	border-left: 2px solid rgb(177, 127, 0);
 	padding-left: 0.5rem;
-}
-p {
-	margin-block-end: 1rem;
 }
