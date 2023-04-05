@@ -1,6 +1,7 @@
 /** @format */
 
 @import url("https://fonts.cdnfonts.com/css/roboto");
+@import url("https://fonts.cdnfonts.com/css/proxima-nova-2?styles=44819,44823,44813,44811");
 *,
 *::before,
 *::after {
@@ -10,12 +11,22 @@
 }
 
 body {
-	font-family: "Roboto", sans-serif;
+	font-family: "Proxima Nova 300", sans-serif;
+
 	background-color: #f5f5f5;
 }
 
 p {
 	text-indent: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Proxima Nova", sans-serif;
 }
 .container {
 	max-width: 900px;
@@ -234,7 +245,7 @@ p {
 
 .background-img > h4 {
 	margin-block-end: 1rem;
-	font-weight: 800;
+	color: #e6e6fa;
 }
 
 .background-img > h5 {
