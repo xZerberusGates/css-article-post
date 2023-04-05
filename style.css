@@ -23,9 +23,25 @@ p {
 	padding: 1rem;
 	border: 1px solid black;
 }
+.nav {
+	margin-block-end: 7rem;
+}
+.nav-bar {
+	display: flex;
+	list-style: none;
+	justify-content: flex-end;
+}
+
+.nav-links {
+	text-decoration: none;
+	color: #d9d8d8;
+	padding: 0.5rem;
+}
 .hero-section {
 	height: 60vh;
-	background-color: rgb(128, 21, 236);
+	/* background-color: rgb(128, 21, 236); */
+	background-image: linear-gradient(to left, #42275a, #834f7b, #42275a);
+	background-size: cover;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -37,7 +53,7 @@ p {
 
 .header-content {
 	background-color: inherit;
-	backdrop-filter: blur(8px);
+
 	margin-inline: auto;
 	margin-block: auto;
 	width: 50%;
@@ -104,4 +120,33 @@ p {
 }
 .first-two-para {
 	margin-block-end: 1rem;
+}
+
+.background-img {
+	/* background-image: url("imgs/wave-haikei.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; */
+	background-image: linear-gradient(to left, #42275a, #734b6d);
+
+	height: 300px;
+	border: 1px solid black;
+	border-radius: 12px;
+}
+
+.test {
+	color: #fff;
+}
+
+section {
+	width: fit-width;
+	padding: 2rem;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px rgba(60, 60, 60, 0.2);
+	margin: auto;
+}
+
+section:hover {
+	transform: scale(0.95);
+	color: blue;
 }
