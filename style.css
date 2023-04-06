@@ -322,4 +322,20 @@ h6 {
 	.nav-bar {
 		justify-content: center;
 	}
+
+	.footer {
+		display: flex;
+		flex-flow: column wrap;
+		font-size: 1rem;
+	}
+	.footer-info-container {
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	/* .footer-links {
+		display: block;
+		width: auto;
+	} */
 }
