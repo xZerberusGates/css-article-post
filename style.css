@@ -267,6 +267,9 @@ h6 {
 	color: #734b6d;
 }
 
+.footer-link-color:hover {
+	color: #e6e6fa;
+}
 .sm-icons {
 	padding: 0 0.5rem;
 }
