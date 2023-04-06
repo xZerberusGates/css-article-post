@@ -290,7 +290,7 @@ h6 {
 
 @media (max-width: 768px) {
 	header {
-		min-height: 100vh;
+		min-height: 90vh;
 		width: 100%;
 	}
 	header,
@@ -317,6 +317,7 @@ h6 {
 	}
 
 	.nav {
+		align-self: flex-start;
 		margin-block-end: 0.5rem;
 	}
 
